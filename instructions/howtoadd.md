@@ -1,5 +1,9 @@
 # How to add a dataset to `SUdatasets`
 
+There are two ways to contribute a dataset to the package:
+* Using github
+* By email.
+
 ## Contributing a dataset via GitHub
 1.  Email Mattias Villani :man_beard: your GitHub user name to be added as a **collaborator** to the `SUdatasets` repository.
 2.  **Clone** `SUdatasets` repository to your computer.
