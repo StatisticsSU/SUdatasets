@@ -1,6 +1,5 @@
 # SUdatasets
-An R package with datasets used in courses at Department of Statistics, Stockholm University.
-
+An R package with datasets used in courses at Department of Statistics, Stockholm University.\
 Department members can **add datasets** following the [instructions](./instructions/howtoadd.md).
 
 ---
