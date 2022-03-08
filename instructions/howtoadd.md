@@ -36,10 +36,10 @@ Here is a documented dataset that you can use as a template (not everything need
     #' @source Dawson, Robert J. MacG. (1995), The ‘Unusual Episode’ Data Revisited. Journal of Statistics Education, 3. doi: 10.1080/10691898.1995.11910499.
     "titanic"
     ```
-5. Build the package's documentation with the command `devtools::document()`. Check that the documentation looks good by typing `?yourdata` in R.
-6. Add the name of your dataset (and optionally badges for the data type and methods that can use the dataset) to the README.md file.
-7. Commit and push to the StatisticsSU github.
-8. Take a coffee break.
+5. **Build the package's documentation** with the command `devtools::document()`. Check that the documentation looks good by typing `?yourdata` in R.
+6. **Add the name of your dataset** (and optionally badges for the data type and methods that can use the dataset) to the README.md file.
+7. Commit and **push** to the StatisticsSU github.
+8. Take a :coffee: break.
 
 ## Contributing a dataset by email
 
