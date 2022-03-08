@@ -1,9 +1,9 @@
 # How to add a dataset to `SUdatasets`
 
 ## If you know your way around github:
-1.  email Mattias Villani you GitHub user name to be added as a **collaborator** to the `SUdatasets` repository.
+1.  email Mattias Villani your GitHub user name to be added as a **collaborator** to the `SUdatasets` repository.
 2.  **Clone** `SUdatasets` repository to your computer.
-3.  **Add your dataset to the package** by doing the following in R (with the SUdatasets as your working directory):
+3.  **Add your dataset to the package** by doing the following in R (with the `SUdatasets` folder as your working directory):
     ```
     install.packages("devtools") # only first time
     library(devtools)
@@ -12,7 +12,7 @@
     where `yourdata` is the name of the dataframe with the data.
 
 4. **Document the dataset** by editing adding an entry in the files in /R/datasets. This is NOT optional, don't submit a dataset without documentation. 
-Here is an of a documented dataset that you can use as a template (not everything needs to be filled in however):
+Here is a documented dataset that you can use as a template (not everything needs to be filled in however):
     ```
     #' Survival of passengers on the Titanic
     #'
@@ -36,9 +36,10 @@ Here is an of a documented dataset that you can use as a template (not everythin
     #' @source Dawson, Robert J. MacG. (1995), The ‘Unusual Episode’ Data Revisited. Journal of Statistics Education, 3. doi: 10.1080/10691898.1995.11910499.
     "titanic"
     ```
-1. Add the name of your dataset (and optionally badges) to the README.md file.
-2. Commit and push to the StatisticsSU github.
-3. Take a coffee break.
+5. Build the package's documentation with the command `devtools::document()`. Check that the documentation looks good by typing `?yourdata` in R.
+6. Add the name of your dataset (and optionally badges) to the README.md file.
+7. Commit and push to the StatisticsSU github.
+8. Take a coffee break.
 
 ## If you are not using github:
 
