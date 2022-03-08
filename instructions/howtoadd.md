@@ -1,7 +1,7 @@
 # How to add a dataset to `SUdatasets`
 
-## If you know your way around github:
-1.  email Mattias Villani your GitHub user name to be added as a **collaborator** to the `SUdatasets` repository.
+## Contributing a dataset via GitHub
+1.  Email Mattias Villani your GitHub user name to be added as a **collaborator** to the `SUdatasets` repository.
 2.  **Clone** `SUdatasets` repository to your computer.
 3.  **Add your dataset to the package** by doing the following in R (with the `SUdatasets` folder as your working directory):
     ```
@@ -37,10 +37,10 @@ Here is a documented dataset that you can use as a template (not everything need
     "titanic"
     ```
 5. Build the package's documentation with the command `devtools::document()`. Check that the documentation looks good by typing `?yourdata` in R.
-6. Add the name of your dataset (and optionally badges) to the README.md file.
+6. Add the name of your dataset (and optionally badges for the data type and methods that can use the dataset) to the README.md file.
 7. Commit and push to the StatisticsSU github.
 8. Take a coffee break.
 
-## If you are not using github:
+## Contributing a dataset by email
 
-Email Mattias Villani your dataframe as an .RData file and a documentation text as in Step 4 (just paste it into the email)
+Email Mattias Villani your dataframe as an .RData file and a documentation text as in Step 4 (just paste it into the email) and optionally a list of badges for the dataset.
