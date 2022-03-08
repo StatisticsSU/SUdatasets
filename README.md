@@ -5,7 +5,7 @@ Department members can **add datasets** following the [instructions](./instructi
 ---
 ### Datasets
 
-* **bikes** - Number of daily rides for a bike share company in Washington D.C.\
+* **bikes** :bike: - Number of daily rides for a bike share company in Washington D.C.\
 ![regression](./badges/regression.svg) ![time series](./badges/timeseries.svg) ![counts](./badges/counts.svg) 
 * **titanic** :ship: - Survival of passengers on the Titanic \
 ![binary regression](./badges/binary_regression.svg)
