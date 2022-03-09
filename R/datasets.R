@@ -1,4 +1,4 @@
-#' Number of daily rides for a bike share company in Washington D.C.
+#' Noumber of daily rides for a bike share company in Washington D.C.
 #'
 #' A dataset containing the number of rides per day and other attributes over the course of 2 years
 #'
