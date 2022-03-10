@@ -41,7 +41,7 @@ Here is a documented dataset that you can use as a template (not everything need
     "titanic"
     ```
 5. **Build the package's documentation** with the command `devtools::document()`. Check that the documentation looks good by typing `?yourdata` in R.
-6. **Add the name of your dataset** to the README.md file. Optionally add badges for the data type and methods that can use the dataset. You can make new ![badge](../badges/badge-blue.svg) if needed [here](https://shields.io/#your-badge) and add them to the `/badges` folder. Try to use blue for badge for a method (e.g. regression), orange for a datatype (e.g. counts), green (this color is called success [here](https://shields.io/#your-badge)) for phenomena (e.g. exponential growth).\ Add a [suitable emoji](https://gist.github.com/rxaviers/7360908) for good measure. :sunglasses:
+6. **Add the name of your dataset** to the README.md file. Optionally add badges for the data type and methods that can use the dataset. You can make new ![badge](../badges/badge-blue.svg) if needed [here](https://shields.io/#your-badge) and add them to the `/badges` folder. Try to use blue for badge for a method (e.g. regression), orange for a datatype (e.g. counts), green (this color is called success [here](https://shields.io/#your-badge)) for phenomena (e.g. exponential growth). Add a [suitable emoji](https://gist.github.com/rxaviers/7360908) for good measure. :sunglasses:
 7. Commit and **push** to the StatisticsSU github.
 8. Take a :coffee: break.
 
