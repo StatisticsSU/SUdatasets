@@ -7,5 +7,9 @@ Department members can **add datasets** following the [instructions](./instructi
 
 * **bikes** :bike: - Number of daily rides for a bike share company in Washington D.C.\
 ![regression](./badges/regression.svg) ![time series](./badges/timeseries.svg) ![counts](./badges/counts.svg) 
+* **chinagdp** :china: - GDP per capita for China 1960-2020\
+![time series](./badges/timeseries.svg) ![exponential growth](./badges/exponential_growth.svg)
 * **titanic** :ship: - Survival of passengers on the Titanic \
 ![binary regression](./badges/binary_regression.svg)
+
+
