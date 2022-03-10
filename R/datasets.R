@@ -71,3 +71,24 @@
 #' }
 #' @source Statistics Sweden \url{https://www.scb.se/hitta-statistik/statistik-efter-amne/priser-och-konsumtion/konsumentprisindex/konsumentprisindex-kpi/pong/tabell-och-diagram/konsumentprisindex-med-fast-ranta-kpif-och-kpif-xe/kpif-12-manadersforandring/} and Sveriges Riksbank \url{https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/}.
 "swedinfl"
+
+
+#' Salaries of US university professors
+#'
+#' @format A data frame with 397 rows (professors) and 13 variables:
+#' \describe{
+#'   \item{Rank}{categorical variable for persons academic rank ("AsstProf", "AssocProf", "Prof")}
+#'   \item{Discipline}{Scientific discipline "A" or "B"}
+#'   \item{YrsSincePhD}{Number of years since PhD degree}
+#'   \item{YrsService}{Number of years in service at university}
+#'   \item{Sex}{Female/Male}
+#'   \item{Salary}{Yearly salary in US dollars}
+#'   \item{LogSalary}{Log of Salary}
+#'   \item{PhdAge}{Normalized version of YrsSincePhD from 0 to 1 (person with most YrsSincePhD)}
+#'   \item{PhdAgeSqr}{Square of PhdAge}
+#'   \item{Rank2}{Binary dummy variable for Rank = "AssocProf"}
+#'   \item{Rank3}{Binary dummy variable for Rank = "Prof"}
+#'   ...
+#' }
+#' @source This is a dataset from R, modified by transformations and creation of dummy variables etc.
+"salaries"
