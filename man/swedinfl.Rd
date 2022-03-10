@@ -3,7 +3,7 @@
 \docType{data}
 \name{swedinfl}
 \alias{swedinfl}
-\title{Monthly Swedish (KPI-F) inflation and the central bank's repo interest rate.}
+\title{Monthly Swedish (KPI-F) inflation and the central bank's repo interest rate (1995-2021)}
 \format{
 A data frame with 60 rows and 3 variables:
 \describe{

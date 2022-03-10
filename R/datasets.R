@@ -58,7 +58,7 @@
 "chinagdp"
 
 
-#' Monthly Swedish (KPI-F) inflation and the central bank's repo interest rate.
+#' Monthly Swedish (KPI-F) inflation and the central bank's repo interest rate (1995-2021)
 #'
 #' Inflation is 12-month percentage change of a measure of underlying inflation (KPIF) that excludes price changes due to changes in the interest rate.
 #'
