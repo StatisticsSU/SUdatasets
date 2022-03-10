@@ -56,3 +56,18 @@
 #' }
 #' @source The World Bank \url{https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CN}
 "chinagdp"
+
+
+#' Monthly Swedish (KPI-F) inflation and the central bank's repo interest rate.
+#'
+#' Inflation is 12-month percentage change of a measure of underlying inflation (KPIF) that excludes price changes due to changes in the interest rate.
+#'
+#' @format A data frame with 60 rows and 3 variables:
+#' \describe{
+#'   \item{date}{year in DD/MM/YYYY format}
+#'   \item{KPIF}{Swedish inflation measured as 12-month percentage change in KPIF.}
+#'   \item{reporate}{central bank's repo interest rate in percent}
+#'   ...
+#' }
+#' @source Statistics Sweden \url{https://www.scb.se/hitta-statistik/statistik-efter-amne/priser-och-konsumtion/konsumentprisindex/konsumentprisindex-kpi/pong/tabell-och-diagram/konsumentprisindex-med-fast-ranta-kpif-och-kpif-xe/kpif-12-manadersforandring/} and Sveriges Riksbank \url{https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/}.
+"swedinfl"
