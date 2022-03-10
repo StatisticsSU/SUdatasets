@@ -1,4 +1,4 @@
-#' Noumber of daily rides for a bike share company in Washington D.C.
+#' Number of daily rides for a bike share company in Washington D.C.
 #'
 #' A dataset containing the number of rides per day and other attributes over the course of 2 years
 #'
@@ -41,3 +41,18 @@
 #' }
 #' @source Dawson, Robert J. MacG. (1995), The ‘Unusual Episode’ Data Revisited. Journal of Statistics Education, 3. doi: 10.1080/10691898.1995.11910499.
 "titanic"
+
+
+#' Yearly gross domestic product (GDP) per capita for China 1960-2020 in current US dollar.
+#'
+#' The dataset also contains the yearly growth rate with a missing value for the year 1960.
+#'
+#' @format A data frame with 60 rows and 3 variables:
+#' \describe{
+#'   \item{year}{year in YYYY format}
+#'   \item{gdp}{gross domestic product per capita in current US dollar}
+#'   \item{gdp_growth}{percentage yearly growth}
+#'   ...
+#' }
+#' @source The World Bank \url{https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CN}
+"chinagdp"
