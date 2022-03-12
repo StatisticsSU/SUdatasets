@@ -92,3 +92,24 @@
 #' }
 #' @source This is a dataset from R, modified by transformations and creation of dummy variables etc.
 "salaries"
+
+#' Determinants of heart attacks for 462 white males in South Africa
+#'
+#' The dataset is from a subset of the South African Coronary Risk-Factor Study (CORIS) baseline survey.
+#' The current dataset includes only the variables used in the 'Elements of Statistical Learning' book
+#' by Hastie et al.
+#'
+#' @format A data frame with 462 rows and 6 variables:
+#' \describe{
+#'   \item{sbp}{systolic blood pressure}
+#'   \item{tobacco}{total lifetime usage in kilograms}
+#'   \item{obesity}{obesity measure}
+#'   \item{alcohol}{consumption of alcohol}
+#'   \item{age}{age of the person at onset of attack}
+#'   \item{attack}{binary variable with heart attack=TRUE for the presence of myocardial infarction (heart attack).}
+#'   ...
+#' }
+#' @source \url{https://hastie.su.domains/ElemStatLearn/data.html}
+"heart"
+
+
