@@ -5,7 +5,7 @@ There are two ways to contribute a dataset to the package:
 * By email.
 
 ## Contributing a dataset via GitHub
-1.  Email Mattias Villani :man_beard: your GitHub user name to be added as a **collaborator** to the `SUdatasets` repository.
+1.  Email your GitHub user name to Mattias Villani to be added as a **collaborator** to the `SUdatasets` repository.
 2.  **Clone** `SUdatasets` repository to your computer.
 3.  **Add your dataset to the package** by doing the following in R (with the `SUdatasets` folder as your working directory):
     ```
