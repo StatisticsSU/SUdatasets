@@ -9,7 +9,7 @@ Department members can **add datasets** following the [instructions](./instructi
 ![regression](./badges/regression.svg) ![time series](./badges/timeseries.svg) ![counts](./badges/counts.svg) 
 * **chinagdp** :cn: - GDP per capita for China 1960-2020\
 ![time series](./badges/timeseries.svg) ![exponential growth](./badges/exponential_growth.svg)
-* **heart** :heart: - Determinants of heart attacks \
+* [**heart**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/heart.Rd) :heart: - Determinants of heart attacks \
 ![binary regression](./badges/binary_regression.svg)
 * **salaries** :dollar: - Salaries for 397 US university professors and explanatory variables \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg)
