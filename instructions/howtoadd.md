@@ -50,3 +50,7 @@ Here is a documented dataset that you can use as a template (not everything need
 ## Contributing a dataset by email
 
 Email Mattias Villani your dataframe as an .RData file and a documentation text as in Step 4 (just paste it into the email) and optionally a list of badges for the dataset.
+
+## Making a badge to include in lecture slides etc
+
+Type `https://img.shields.io/static/v1?label=SUdatasets&message=bike&style=plastic&logo=github&color=orange` in your browser and right-click on the image to save it to disk. Change the text or other parameters in the link to change dataset name, color etc.
