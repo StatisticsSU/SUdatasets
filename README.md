@@ -15,6 +15,8 @@ Department members can **add datasets** following the [instructions](./instructi
 ![regression](./badges/regression.svg) ![outlier](./badges/outlier.svg) ![influence](./badges/influence.svg)
 * [**heart**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/heart.Rd) :heart: - Determinants of heart attacks \
 ![binary regression](./badges/binary_regression.svg)
+* [**orings**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/orings.Rd) :rocket: - Challenger USA Space Shuttle O-Ring data \
+![regression](./badges/regression.svg) ![count](./badges/count.svg)
 * [**salaries**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/salaries.Rd) :dollar: - Salaries for 397 US university professors and explanatory variables \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg)
 * [**swedinfl**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/swedinfl.Rd) :moneybag: - Monthly Swedish inflation and the repo interest rate (1995-2021)\

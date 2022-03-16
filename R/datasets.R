@@ -150,4 +150,20 @@
 #' @source Gelman, Hill and Vehtari (2020). Regression and other stories, *Cambridge University Press*. \url{https://avehtari.github.io/ROS-Examples/}
 "healthbudget"
 
+#' Challenger USA Space Shuttle O-Ring Data Set
+#'
+#' The number of O-rings that experience thermal distress on 23 shuttle flights.
+#' @format A data frame with 23 rows and 5 variables:
+#' \describe{
+#'   \item{nRisk}{Number of O-rings at risk on a given flight}
+#'   \item{nDistress}{Number experiencing thermal distress}
+#'   \item{tempLaunch}{Launch temperature (degrees F)}
+#'   \item{pressure}{Leak-check pressure (psi)}
+#'   \item{temporalOrder}{Temporal order of flight}
+#'   ...
+#' }
+#' @source Draper, D. (1995). Assessment and propagation of model uncertainty. JRSS B.
+#' \url{https://www.jstor.org/stable/2346087} and the UCI repository
+#' \url{https://archive.ics.uci.edu/ml/datasets/Challenger+USA+Space+Shuttle+O-Ring}
+"orings"
 

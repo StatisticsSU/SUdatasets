@@ -53,7 +53,7 @@ Email Mattias Villani your dataframe as an .RData file and a documentation text 
 
 ## Making a badge to include in lecture slides etc
 
-Type `https://img.shields.io/static/v1?label=SUdatasets&message=bike&style=plastic&logo=github&color=orange` in your browser and right-click on the image to save it to disk. Change the text or other parameters in the link to change dataset name, color etc.
+Type https://img.shields.io/static/v1?label=SUdatasets&message=bike&style=plastic&logo=github&color=orange in your browser and right-click on the image to save it to disk. Change the text or other parameters in the link to change dataset name, color etc.
 
 The following badge can be used for R's built-in datasets:
 https://img.shields.io/static/v1?label=data&message=anscombe&style=plastic&logo=r&color=blue
