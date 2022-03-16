@@ -12,7 +12,7 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
 ![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg) 
 * [**healthbudget**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/healthbudget.Rd) :hospital: - Spending on health and life expectancy in 30 countries \
-![regression](./badges/regression.svg)
+![regression](./badges/regression.svg) ![outlier](./badges/outlier.svg) ![influence](./badges/influence.svg)
 * [**heart**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/heart.Rd) :heart: - Determinants of heart attacks \
 ![binary regression](./badges/binary_regression.svg)
 * [**salaries**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/salaries.Rd) :dollar: - Salaries for 397 US university professors and explanatory variables \
