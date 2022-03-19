@@ -167,3 +167,85 @@
 #' \url{https://archive.ics.uci.edu/ml/datasets/Challenger+USA+Space+Shuttle+O-Ring}
 "orings"
 
+#' Systolic blood pressure for male and females
+#'
+#' @format A data frame with 69 rows and 3 variables:
+#' \describe{
+#'   \item{SBP}{Systolic blood pressure}
+#'   \item{Age}{Age of person}
+#'   \item{Gender}{1 = male, 0 = woman}
+#'   ...
+#' }
+#' @source ???
+"bloodpressure"
+
+#' Temperature at Malmslätt, Linköping
+#'
+#' A dataset of daily temperatures (in Celcius) at Malmslätt, Linköping, over
+#' the course of the year 2016 (366 observations since 2016 was a leap year).
+#'
+#' @format A data frame with 366 rows and 2 variables:
+#' \describe{
+#'   \item{time}{The number of days since the beginning of the year divided
+#'   by 366}
+#'   \item{temp}{Temperature in Celcius}
+#'   ...
+#' }
+#' @source Swedish Meteorological and Hydrological Institute \url{https://www.smhi.se/data/meteorologi/temperatur}
+"tempLinkoping"
+
+#' Campylobacter infections in northern Quebec
+#'
+#' A dataset of the number of campylobacter infections in the north of the
+#' province Quebec (Canada) in four week intervals from January 1990 to the
+#' end of October 2000. 13 observations per year.
+#'
+#' @format A data frame with 140 rows and 1 variable:
+#' \describe{
+#'   \item{infections}{Number of campylobacter infections during a four week period.}
+#'   ...
+#' }
+#'
+"campy"
+
+#' Data on womens' labor force participation
+#'
+#' A dataset on the working status (works or does not work) for 200 women.
+#'
+#' @format A data frame with 200 rows and 9 variables:
+#' \describe{
+#'   \item{work}{Whether or not the woman works.}
+#'   \item{constant}{Constant/intercept.}
+#'   \item{husbandInc}{Husband's income.}
+#'   \item{educYears}{Years of education.}
+#'   \item{expYears}{Years of experience.}
+#'   \item{expYears2}{(Years of experience/10)^2.}
+#'   \item{age}{Age.}
+#'   \item{nSmallChild}{Number of children at or under the age of six
+#'   in the household.}
+#'   \item{nBigChild}{Number of children older than six in the household.
+#'   Not counting the husband.}
+#'   ...
+#' }
+#'
+#' @source Mroz, T. A. (1987). The sensitivity of an empirical model of married women's
+#' hours of work to economic and statistical assumptions. Econometrica 55, 765–799.
+#'
+#' This particular data is the subset used in
+#'
+#' Jelizakov, I. and Chib, S. (2001). Marginal Likelihood from the Metropolis–Hastings Output. JASA.
+"womenwork"
+
+#' Rainfall at Snoqualmie Falls, Washington
+#'
+#' A dataset of daily records of precipitation in 0.01 inches, with zeroes
+#' excluded. The data was collected between 1948 and 1984 at Snoqualmie
+#' Falls, Washington.
+#'
+#' @format A data frame with 6920 rows and 1 variable:
+#' \describe{
+#'   \item{precipitation}{Daily precipitation in 0.01 inches, excluding zeroes.}
+#'   ...
+#' }
+#' @source Guttorp, P. (2018) Stochastic modeling of scientific data. Chapman and Hall/CRC \url{https://doi.org/10.1201/9780203738252}.
+"rainfall"
