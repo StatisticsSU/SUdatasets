@@ -44,7 +44,7 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**titanic**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/titanic.Rd) :ship: - Survival of passengers on the Titanic \
 ![binary regression](./badges/binary_regression.svg)
 
-* [**womanwork**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/womanwork.Rd) :raising_hand: - Womens' labor force participation \
+* [**womenwork**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/womenwork.Rd) :raising_hand: - Womens' labor force participation \
 ![binary regression](./badges/binary_regression.svg)
 
 
