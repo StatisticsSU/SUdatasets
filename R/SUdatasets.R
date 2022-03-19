@@ -1,0 +1,18 @@
+#' SUdatasets: a package for the with datasets for teaching at Dept of Statistics, Stockholm University
+#'
+#' This package contains the data sets used in some of the courses at
+#' Dept of Statistics, Stockholm university. The package uses lazy loading, which means that the
+#' data sets are not loaded themselves into the environment, but they can still
+#' be accessed.
+#'
+#' @section Usage:
+#'
+#' Even though the data sets do not show up in the environment, they can be
+#' accessed (used) as normal, so for example mean(tempLinkoping$temp) or
+#' summary(womenwork) will give expected results.
+#'
+#' For a list of all available data sets, use help(, "SUdatasets").
+#'
+#' @docType package
+#' @name SUdatasets
+NULL
