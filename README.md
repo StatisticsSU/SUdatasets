@@ -17,6 +17,9 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**chinagdp**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/chinagdp.Rd) :cn: - GDP per capita for China 1960-2020\
 ![time series](./badges/timeseries.svg) ![exponential growth](./badges/exponential_growth.svg)
 
+* [**debtratio**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/debtratio.Rd) :bank: - Financial leverage of US firms\
+![regression](./badges/regression.svg) ![proportions](./badges/proportions.svg)
+
 * [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
 ![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg) 
 

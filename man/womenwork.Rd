@@ -3,7 +3,7 @@
 \docType{data}
 \name{womenwork}
 \alias{womenwork}
-\title{Data on womens' labor force participation}
+\title{Womens' labor force participation}
 \format{
 A data frame with 200 rows and 9 variables:
 \describe{

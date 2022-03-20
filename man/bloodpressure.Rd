@@ -3,7 +3,7 @@
 \docType{data}
 \name{bloodpressure}
 \alias{bloodpressure}
-\title{Systolic blood pressure for men and female}
+\title{Systolic blood pressure for male and females}
 \format{
 A data frame with 69 rows and 3 variables:
 \describe{
@@ -20,6 +20,6 @@ A data frame with 69 rows and 3 variables:
 bloodpressure
 }
 \description{
-Systolic blood pressure for men and female
+Systolic blood pressure for male and females
 }
 \keyword{datasets}

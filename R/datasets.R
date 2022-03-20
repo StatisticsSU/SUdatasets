@@ -208,7 +208,7 @@
 #'
 "campy"
 
-#' Data on womens' labor force participation
+#' Womens' labor force participation
 #'
 #' A dataset on the working status (works or does not work) for 200 women.
 #'
@@ -249,3 +249,20 @@
 #' }
 #' @source Guttorp, P. (2018) Stochastic modeling of scientific data. Chapman and Hall/CRC \url{https://doi.org/10.1201/9780203738252}.
 "rainfall"
+
+#' Financial leverage of US firms
+#'
+#' A dataset on the leverage (debtratio) for 4405 US firms.
+#'
+#' @format A data frame with 4405 rows and 5 variables:
+#' \describe{
+#'   \item{tang}{tangible assets/book value of total assets}
+#'   \item{mbtr}{(book value of total assets − book value of equity + market value of equity)/book value of total assets}
+#'   \item{logsale}{natural log of sales}
+#'   \item{profit}{earnings before interest, taxes, depreciation, and amortization (EBITDA)/book value of total assets}
+#'   \item{debtratio}{total debt/(total debt + book value of equity)}
+#'   ...
+#' }
+#'
+#' @source Villani, M. Kohn, R and Nott, D.J. (2012). Generalized smooth finite mixtures. Journal of Econometrics, vol. 171 pp. 121–133.
+"debtratio"
