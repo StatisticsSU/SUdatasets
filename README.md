@@ -23,6 +23,9 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
 ![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg) 
 
+* [**globaltemp**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/globaltemp.Rd) :chart_with_upwards_trend: - Global temperature 1880-2020 \
+![time series](./badges/timeseries.svg)
+
 * [**healthbudget**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/healthbudget.Rd) :hospital: - Spending on health and life expectancy in 30 countries \
 ![regression](./badges/regression.svg) ![outlier](./badges/outlier.svg) ![influence](./badges/influence.svg)
 

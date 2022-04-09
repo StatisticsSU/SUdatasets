@@ -266,3 +266,18 @@
 #'
 #' @source Villani, M. Kohn, R and Nott, D.J. (2012). Generalized smooth finite mixtures. Journal of Econometrics, vol. 171 pp. 121–133.
 "debtratio"
+
+#' Global temperature anomaly time series data during 1880-2020.
+#'
+#' The data contains yearly observations of global surface temperature relative to 1951-1980 average temperatures.
+#'
+#' @format A data frame with 141 rows and 3 variables:
+#' \describe{
+#'   \item{year}{year}
+#'   \item{temp}{global temperature anomaly (i.e. relative to 1951-1980 average temperatures)}
+#'   \item{smoothtemp}{lowess smoothed version of temp}
+#'   ...
+#' }
+#'
+#' @source NASA \url{https://climate.nasa.gov/vital-signs/global-temperature/}.
+"globaltemp"
