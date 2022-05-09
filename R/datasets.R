@@ -176,7 +176,7 @@
 #'   \item{Gender}{1 = male, 0 = woman}
 #'   ...
 #' }
-#' @source ???
+#' @source simulated data
 "bloodpressure"
 
 #' Temperature at Malmslätt, Linköping
@@ -281,3 +281,23 @@
 #'
 #' @source NASA \url{https://climate.nasa.gov/vital-signs/global-temperature/}.
 "globaltemp"
+
+
+
+#' Smoking habits
+#'
+#' This dataset is included in the extra material of the book: "Statistikens grunder". It contains four variables. Each row has the data for a person
+#' by including gender, smoking habits, age and training.  \cr \cr
+#' NOTE: this is the same dataset reported in the book (as rokdata.xls), but the name of the variables and the related descriptions are in English.
+#'
+#'
+#' @format A data frame with 60 rows and 4 variables:
+#' \describe{
+#'   \item{Gender}{0 = Man, 1 = Woman}
+#'   \item{Smoking habits}{0 = no smoking, 1 = yes smoking}
+#'   \item{Age}{age of the person}
+#'   \item{Training}{number of times a person is training per week}
+#'   ...
+#' }
+#' @source Nyquist, H. (2021), Statistikens grunder. Studentlitteratur.
+"smoking"
