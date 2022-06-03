@@ -7,7 +7,7 @@ Description: Datasets used in the courses at Dept of Statistics, Stockholm Unive
 License: `use_mit_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 Depends: 
     R (>= 2.10)
 LazyData: true
