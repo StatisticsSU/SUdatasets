@@ -286,7 +286,7 @@
 #' Smoking habits
 #'
 #' This dataset is included in the extra material of the book: "Statistikens grunder". It contains four variables. Each row has the data for a person
-#' by including gender, smoking habits, age and training.  \cr \cr
+#' by including gender, smoking habits, age and training.
 #' NOTE: this is the same dataset reported in the book (as rokdata.xls), but the name of the variables and the related descriptions are in English.
 #'
 #'
