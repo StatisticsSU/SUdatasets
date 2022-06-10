@@ -41,7 +41,8 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**salaries**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/salaries.Rd) :dollar: - Salaries for 397 US university professors and explanatory variables \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg)
 
-* [**smoking**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/smoking.Rd) :dollar: - Smoking habit for 60 people \ ![counts](./badges/counts.svg) ![binomial](./badges/binomial.svg)
+* [**smoking**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/smoking.Rd) :dollar: - Smoking habit for 60 people \ 
+![counts](./badges/counts.svg) ![binomial](./badges/binomial.svg)
 
 * [**swedinfl**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/swedinfl.Rd) :moneybag: - Monthly Swedish inflation and the repo interest rate (1995-2021)\
 ![regression](./badges/regression.svg) ![time series](./badges/timeseries.svg) 
