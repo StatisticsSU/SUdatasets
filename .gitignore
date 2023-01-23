@@ -1,8 +1,12 @@
 .Rproj.user
+*.Rproj
+SUdatasets.Rproj
 
 # History files
 .Rhistory
 .Rapp.history
+.Rprofile
+.Rhistory
 
 # Session Data files
 .RData
