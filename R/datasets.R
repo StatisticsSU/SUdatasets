@@ -227,7 +227,6 @@
 #'   Not counting the husband.}
 #'   ...
 #' }
-#'
 #' @source Mroz, T. A. (1987). The sensitivity of an empirical model of married women's
 #' hours of work to economic and statistical assumptions. Econometrica 55, 765–799.
 #'
@@ -301,3 +300,25 @@
 #' @source Nyquist, H. (2021), Statistikens grunder. Studentlitteratur.
 "smoking"
 
+#' Determinants of electricity cost for 1602 households from South Australia
+#'
+#'
+#' @format A data frame with 1602 rows and 3 variables:
+#' \describe{
+#'   \item{cost}{annual cost of electricity for a household in Australian dollars.}
+#'   \item{rooms}{number of rooms in the house.}
+#'   \item{people}{number of usual residents in the house}
+#'   \item{income}{annual pretax household income in Australian dollars}
+#'   \item{onlysecondary}{indicator for electric secondary heating only}
+#'   \item{waterheat}{indicator for peak electric water heating}
+#'   \item{cookel}{indicator for electric cooking only}
+#'   \item{poolfilt}{indicator for pool filter}
+#'   \item{airrev}{indicator for reverse cycle air conditioning}
+#'   \item{aircond}{indicator for air conditioning}
+#'   \item{microwave}{indicator for microwave}
+#'   \item{dish}{indicator for dishwasher}
+#'   \item{dryer}{indicator for dryer}
+#'   ...
+#' }
+#' @source Bartels, R., Fiebig, D. and Plumb, M. (1996). Gas or electricity, which is cheaper? An econometric approach with application to Australian expenditure data, The Energy Journal 17(4): 33–58.
+"electricitycost"

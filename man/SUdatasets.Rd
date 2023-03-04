@@ -3,7 +3,7 @@
 \docType{package}
 \name{SUdatasets}
 \alias{SUdatasets}
-\title{SUdatasets: a package with datasets used in courses at Department of Statistics, Stockholm University.}
+\title{SUdatasets: a package for the with datasets for teaching at Dept of Statistics, Stockholm University}
 \description{
 This package contains the data sets used in some of the courses at
 Dept of Statistics, Stockholm university. The package uses lazy loading, which means that the
