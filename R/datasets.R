@@ -322,3 +322,21 @@
 #' }
 #' @source Bartels, R., Fiebig, D. and Plumb, M. (1996). Gas or electricity, which is cheaper? An econometric approach with application to Australian expenditure data, The Energy Journal 17(4): 33–58.
 "electricitycost"
+
+#' Data on the height of children and their parents
+#'
+#' This dataset contains the height of 898 adult children and their 
+#' parents. The data was (perhaps) used in "Regression Towards
+#' Mediocrity in Hereditary Stature" by Francis Galton (1886).
+#' 
+#' @format A data frame with 898 rows and 6 variables:
+#' \describe{
+#'   \item{Family}{Family identifier}
+#'   \item{Father}{Height of father, in inches}
+#'   \item{Mother}{Height of mother, in inches}
+#'   \item{Gender}{Gender of the child}
+#'   \item{Height}{Height of the adult child}
+#'   \item{Kids}{Number of children in the family}
+#' }
+#' @source Marshall Bradley, "Galton Parent and Child Height Data" from the Wolfram Data Repository (2022).
+"galton"
