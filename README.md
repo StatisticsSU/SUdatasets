@@ -26,6 +26,10 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**electricitycost**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/electricitycost.Rd) :bulb: - Determinants of electricity cost for Australian households \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg) 
 
+* [**galton**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/galton.Rd) :pig: -  \
+![regression](./badges/regression.svg)
+
+
 * [**globaltemp**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/globaltemp.Rd) :chart_with_upwards_trend: - Global temperature 1880-2020 \
 ![time series](./badges/timeseries.svg)
 
