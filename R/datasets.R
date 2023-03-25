@@ -122,14 +122,14 @@
 #'
 #' @format A data frame with 1000 rows and 10 variables:
 #' \describe{
-#'   \item{BookVal}{The recommended value of the coin as reported by the Internet coin seller Golden Eagle Coins at http:// www.goldeneaglecoin.com.}
+#'   \item{BookVal}{The recommended value of the coin as reported by the Internet coin seller Golden Eagle Coins at \url{https://www.goldeneaglecoin.com/}}
 #'   \item{MinorBlem}{Binary, coded as 1 if the proof set had minor damage on the box or packaging according to a subjective assessment of the item using the seller’s description and pictures of the auctioned object.}
 #'   \item{MajorBlem}{Binary, coded as 1 if at least one coin was missing in the package or if other major imperfections were present.}
 #'   \item{PowerSeller}{Binary, coded as 1 if the seller is ranked among the most successful sellers in terms of product sales and customer satisfaction on eBay.}
 #'   \item{IDSeller}{Binary, coded as 1 if the seller’s identity has been established by cross-checking his contact information in consumer and business databases.}
 #'   \item{Sealed}{Binary, coded as 1 if the proof set is sealed in its original envelope.}
 #'   \item{NegFeedback}{Binary, coded as 1 if more than 1% of the seller’s feedback scores from buyers have been negative.}
-#'   \item{ReservePriceFrac}{The seller’s reservation price (lowest accepted sale price) as a fraction of the object’s book value.}
+#'   \item{ReservePriceFrac}{The seller’s reservation price (lowest accepted sale price + shipping cost) as a fraction of the object’s book value (BookVal).}
 #'   \item{NBidders}{Counts. Number of bidders in the auction.}
 #'   \item{FinalPrice}{Final price of the auctioned coin including shipping costs. NaN if the item was not sold.}
 #'   ...
@@ -325,10 +325,10 @@
 
 #' Data on the height of children and their parents
 #'
-#' This dataset contains the height of 898 adult children and their 
+#' This dataset contains the height of 898 adult children and their
 #' parents. The data was (perhaps) used in "Regression Towards
 #' Mediocrity in Hereditary Stature" by Francis Galton (1886).
-#' 
+#'
 #' @format A data frame with 898 rows and 6 variables:
 #' \describe{
 #'   \item{Family}{Family identifier}
