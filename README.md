@@ -24,7 +24,7 @@ Department members can **add datasets** following the [instructions](./instructi
 ![regression](./badges/regression.svg) ![counts](./badges/counts.svg) ![overdispersion](./badges/overdispersion.svg) 
 
 * [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
-![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg) 
+![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg)
 
 * [**electricitycost**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/electricitycost.Rd) :bulb: - Determinants of electricity cost for Australian households \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg) 
