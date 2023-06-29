@@ -3,12 +3,12 @@
 \docType{data}
 \name{fish}
 \alias{fish}
-\title{Data on fish length}
+\title{Length of farmed fish}
 \format{
 A data frame with 44 rows and 4 variables:
 \describe{
 \item{length}{fish length, in mm}
-\item{intercept}{just a vector of ones for the intercept}
+\item{intercept}{a vector of ones for the intercept}
 \item{age}{fish age, in days}
 \item{temp}{temperature of the water, in celcius degrees}
 }
@@ -20,6 +20,6 @@ A subset of the data in D. M. Titterington, A. F. M. Smith and U.E. Makov (1985)
 fish
 }
 \description{
-This dataset contains the length of 44 fishes with varying age and water temperature.
+This dataset contains the length of 44 farmed fish with varying age and water temperature.
 }
 \keyword{datasets}

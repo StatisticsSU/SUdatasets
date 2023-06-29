@@ -354,3 +354,26 @@
 #' }
 #' @source A subset of the data in D. M. Titterington, A. F. M. Smith and U.E. Makov (1985) Statistical Analysis of Finite Mixture Distributions. Wiley.
 "fish"
+
+#' Number of visits to doctor
+#'
+#' The number of visits of German women to a physician during the most recent three month period.
+#'
+#' @format A data frame with 2227 rows and 14 variables:
+#' \describe{
+#'   \item{numvisit}{number of visits to a doctor}
+#'   \item{reform}{a dummy for the 1997 health reform, 1 = interviewed after reform}
+#'   \item{badh}{a dummy for bad health (=1)}
+#'   \item{age}{age in years}
+#'   \item{educ}{number of school years}
+#'   \item{loginc}{log of household income in DM}
+#'   \item{edu}{education level}
+#'   \item{edu1}{dummy for 7–10.5 years of education}
+#'   \item{edu2}{dummy for 10.5–12 years of education}
+#'   \item{edu3}{dummy for >12 years of education}
+#'   \item{age1}{dummy for 20-39 years}
+#'   \item{age2}{dummy for 40–49 years}
+#'   \item{age3}{dummy for 50-60 years}
+#' }
+#' @source Riphahn, R., Wambach, A., Million, A., 2003. Incentive effects in the demand for health care: a bivariate panel count data estimation. Journal of Applied Econometrics 18 (4), 387–405.
+"doctorvisits"

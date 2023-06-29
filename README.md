@@ -20,9 +20,11 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**debtratio**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/debtratio.Rd) :bank: - Financial leverage of US firms\
 ![regression](./badges/regression.svg) ![proportions](./badges/proportions.svg)
 
-* [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
-![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg) 
+* [**doctorvisits**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/doctorvisits.Rd) :doctor: - Number of visits to doctor\
+![regression](./badges/regression.svg) ![counts](./badges/counts.svg)
 
+* [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
+![regression](./badges/regression.svg) ![binary regression](./badges/binary_regression.svg) ![counts](./badges/counts.svg) ![overdispersion](./badges/overdispersion.svg) 
 * [**electricitycost**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/electricitycost.Rd) :bulb: - Determinants of electricity cost for Australian households \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg) 
 
