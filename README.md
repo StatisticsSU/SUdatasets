@@ -20,7 +20,7 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**debtratio**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/debtratio.Rd) :bank: - Financial leverage of US firms\
 ![regression](./badges/regression.svg) ![proportions](./badges/proportions.svg)
 
-* [**doctorvisits**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/doctorvisits.Rd) :doctor: - Number of visits to doctor\
+* [**doctorvisits**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/doctorvisits.Rd) :hospital: - Number of visits to doctor\
 ![regression](./badges/regression.svg) ![counts](./badges/counts.svg)
 
 * [**ebaycoins**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/ebaycoins.Rd) :raised_hand: - Final price and number of bidders in eBay auctions of collectors coins \
