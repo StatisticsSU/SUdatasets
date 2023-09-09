@@ -7,7 +7,7 @@
 \format{
 A data frame with 60 rows and 3 variables:
 \describe{
-\item{date}{year in DD/MM/YYYY format}
+\item{Date}{year in DD/MM/YYYY format}
 \item{KPIF}{Swedish inflation measured as 12-month percentage change in KPIF.}
 \item{reporate}{central bank's repo interest rate in percent}
 ...

@@ -14,9 +14,9 @@ A data frame with 2227 rows and 14 variables:
 \item{educ}{number of school years}
 \item{loginc}{log of household income in DM}
 \item{edu}{education level}
-\item{edu1}{dummy for 7–10.5 years of education}
-\item{edu2}{dummy for 10.5–12 years of education}
-\item{edu3}{dummy for >12 years of education}
+\item{educ1}{dummy for 7–10.5 years of education}
+\item{educ2}{dummy for 10.5–12 years of education}
+\item{educ3}{dummy for >12 years of education}
 \item{age1}{dummy for 20-39 years}
 \item{age2}{dummy for 40–49 years}
 \item{age3}{dummy for 50-60 years}

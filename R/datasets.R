@@ -1,20 +1,38 @@
+#' Real estate data from chapter 1 of "Regression och tidsserieanalys" (ÅJA)
+#'
+#' Contains data on the price (pris), size of the plot (tomt), size of
+#' the property (yta), age (alder) and number of rooms (antal_rum) of 28
+#' properties from the book "Regression och Tidsserieanalys".
+#' 
+#' @format A data frame with 28 rows and 5 variables:
+#' \describe{
+#'   \item{pris}{Cost of the property}
+#'   \item{tomt}{Size of the plot}
+#'   \item{yta}{Size (in square meters) of the property}
+#'   \item{alder}{Age of the property}
+#'   \item{antal_rum}{Number of rooms in the property}
+#' }
+#' @source Andersson, G., Jorner, U., and Ågren, A. "Regression och tidsserieanalys (2007)".
+"maklardata_rot"
+
 #' Number of daily rides for a bike share company in Washington D.C.
 #'
 #' A dataset containing the number of rides per day and other attributes over the course of 2 years
 #'
 #' @format A data frame with 731 rows and 12 variables:
 #' \describe{
-#'   \item{dteday}{date in YYYY-MM-DD format}
-#'   \item{season}{categorical variable (1="winter", 2 = "spring", 3 = "summer", 4 = "fall")}
-#'   \item{yr}{year (0="2011", 1 = "2012")}
-#'   \item{mnth}{month from 1-12 where 1 = "January"}
-#'   \item{holiday}{binary variable for public holidays}
-#'   \item{weekday}{day of the week 0-6, 0 ="Sunday"}
-#'   \item{workingday}{binary variable for working days (=1)}
-#'   \item{weathersit}{categorical variable (1="clear", 2 = "mist", 3 = "light snow")}
-#'   \item{temp}{continuous temperature variable, normalized between [0,1]}
-#'   \item{hum}{continuous humidity variable, normalized between [0,1]}
-#'   \item{windspeed}{continuous windspeed variable, normalized between [0,1]}
+#'   \item{dteday}{date in YYYY-MM-DD format.}
+#'   \item{nRides}{Number of registered bike rides.}
+#'   \item{season}{categorical variable (1="winter", 2 = "spring", 3 = "summer", 4 = "fall").}
+#'   \item{yr}{year (0="2011", 1 = "2012").}
+#'   \item{mnth}{month from 1-12 where 1 = "January".}
+#'   \item{holiday}{binary variable for public holidays.}
+#'   \item{weekday}{day of the week 0-6, 0 = "Sunday".}
+#'   \item{workingday}{binary variable for working days (=1).}
+#'   \item{weathersit}{categorical variable (1="clear", 2 = "mist", 3 = "light snow").}
+#'   \item{temp}{continuous temperature variable, normalized to lie between 0 and 1.}
+#'   \item{hum}{continuous humidity variable, normalized to lie between 0 and 1.}
+#'   \item{windspeed}{continuous windspeed variable, normalized to lie between 0 and 1.}
 #'   ...
 #' }
 #' @source \url{https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset}
@@ -64,7 +82,7 @@
 #'
 #' @format A data frame with 60 rows and 3 variables:
 #' \describe{
-#'   \item{date}{year in DD/MM/YYYY format}
+#'   \item{Date}{year in DD/MM/YYYY format}
 #'   \item{KPIF}{Swedish inflation measured as 12-month percentage change in KPIF.}
 #'   \item{reporate}{central bank's repo interest rate in percent}
 #'   ...
@@ -368,9 +386,9 @@
 #'   \item{educ}{number of school years}
 #'   \item{loginc}{log of household income in DM}
 #'   \item{edu}{education level}
-#'   \item{edu1}{dummy for 7–10.5 years of education}
-#'   \item{edu2}{dummy for 10.5–12 years of education}
-#'   \item{edu3}{dummy for >12 years of education}
+#'   \item{educ1}{dummy for 7–10.5 years of education}
+#'   \item{educ2}{dummy for 10.5–12 years of education}
+#'   \item{educ3}{dummy for >12 years of education}
 #'   \item{age1}{dummy for 20-39 years}
 #'   \item{age2}{dummy for 40–49 years}
 #'   \item{age3}{dummy for 50-60 years}

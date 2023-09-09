@@ -7,17 +7,18 @@
 \format{
 A data frame with 731 rows and 12 variables:
 \describe{
-\item{dteday}{date in YYYY-MM-DD format}
-\item{season}{categorical variable (1="winter", 2 = "spring", 3 = "summer", 4 = "fall")}
-\item{yr}{year (0="2011", 1 = "2012")}
-\item{mnth}{month from 1-12 where 1 = "January"}
-\item{holiday}{binary variable for public holidays}
-\item{weekday}{day of the week 0-6, 0 ="Sunday"}
-\item{workingday}{binary variable for working days (=1)}
-\item{weathersit}{categorical variable (1="clear", 2 = "mist", 3 = "light snow")}
-\item{temp}{continuous temperature variable, normalized between \link{0,1}}
-\item{hum}{continuous humidity variable, normalized between \link{0,1}}
-\item{windspeed}{continuous windspeed variable, normalized between \link{0,1}}
+\item{dteday}{date in YYYY-MM-DD format.}
+\item{nRides}{Number of registered bike rides.}
+\item{season}{categorical variable (1="winter", 2 = "spring", 3 = "summer", 4 = "fall").}
+\item{yr}{year (0="2011", 1 = "2012").}
+\item{mnth}{month from 1-12 where 1 = "January".}
+\item{holiday}{binary variable for public holidays.}
+\item{weekday}{day of the week 0-6, 0 = "Sunday".}
+\item{workingday}{binary variable for working days (=1).}
+\item{weathersit}{categorical variable (1="clear", 2 = "mist", 3 = "light snow").}
+\item{temp}{continuous temperature variable, normalized to lie between 0 and 1.}
+\item{hum}{continuous humidity variable, normalized to lie between 0 and 1.}
+\item{windspeed}{continuous windspeed variable, normalized to lie between 0 and 1.}
 ...
 }
 }
