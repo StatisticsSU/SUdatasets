@@ -60,7 +60,7 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**swedinfl**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/swedinfl.Rd) :moneybag: - Monthly Swedish inflation and the repo interest rate (1995-2021)\
 ![regression](./badges/regression.svg) ![time series](./badges/timeseries.svg) 
 
-* [**tableware**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/tableware.Rd) :bowling: - Porslinproduktion i Santa Fe \
+* [**tableware**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/tableware.Rd) :bowling: - Tableware production in Santa Fe \
 ![regression](./badges/regression.svg)
 
 * [**tempLinkoping**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/tempLinkoping.Rd) :sunny: - Temperature in Linköping, Sweden in 2016\
