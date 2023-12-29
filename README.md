@@ -29,6 +29,11 @@ Department members can **add datasets** following the [instructions](./instructi
 * [**electricitycost**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/electricitycost.Rd) :bulb: - Determinants of electricity cost for Australian households \
 ![regression](./badges/regression.svg) ![skewed](./badges/skewed.svg) 
 
+* [**energySweden**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/energySweden.Rd) :bulb: - 
+Total energy usage in swedish municipalities in 2021 \
+![strictly positive data](./badges/strictlypositive.svg) ![skewed](./badges/skewed.svg) 
+
+
 * [**galton**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/galton.Rd) :pig: - Data on the height of adult children and their parents  \
 ![regression](./badges/regression.svg)
 

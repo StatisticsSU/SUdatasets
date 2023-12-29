@@ -3,7 +3,7 @@
 #' One step in the process of manufacturing tableware is polishing.
 #' This dataset contains polishing times, measured in minutes, for a
 #' number of items from a factory in Santa Fe.
-#' 
+#'
 #' @format A data frame with 59 rows and 4 variables:
 #' \describe{
 #'   \item{price}{Price of the item.}
@@ -19,7 +19,7 @@
 #' Contains data on the price (pris), size of the plot (tomt), size of
 #' the property (yta), age (alder) and number of rooms (antal_rum) of 28
 #' properties from the book "Regression och Tidsserieanalys".
-#' 
+#'
 #' @format A data frame with 28 rows and 5 variables:
 #' \describe{
 #'   \item{pris}{Cost of the property}
@@ -411,3 +411,18 @@
 #' }
 #' @source Riphahn, R., Wambach, A., Million, A., 2003. Incentive effects in the demand for health care: a bivariate panel count data estimation. Journal of Applied Econometrics 18 (4), 387–405.
 "doctorvisits"
+
+
+#' The total energy usage in mega watt hours in Sweden 2021 in units of 10 millions.
+#'
+#' This data set some missing data and three outliers (of three major municipalities)
+#'
+#' @format A data frame with 234 rows and 2 variables:
+#' \describe{
+#'   \item{region}{municipalities}
+#'   \item{Mwh}{Mega watt hours in Sweden 2021 in units of 10 millions}
+#'   ...
+#' }
+#' @source Statistics Sweden, 2023
+"energySweden"
+
