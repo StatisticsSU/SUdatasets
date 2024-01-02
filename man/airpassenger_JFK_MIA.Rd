@@ -14,6 +14,7 @@ A data frame with 405 rows and 2 variables:
 }
 \source{
 US Bureau of Transportation Statistics website:
+\url{https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=GEE&QO_fu146_anzr=Nv4\%20Pn44vr45}
 }
 \usage{
 Time series analysis. Seasonality. Extreme events (covid-19 pandemic).

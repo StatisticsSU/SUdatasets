@@ -441,6 +441,6 @@
 #'   ...
 #' }
 #' @source US Bureau of Transportation Statistics website:
-#  https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=GEE&QO_fu146_anzr=Nv4%20Pn44vr45
+#' \url{https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=GEE&QO_fu146_anzr=Nv4%20Pn44vr45}
 "airpassenger_JFK_MIA"
 
