@@ -426,3 +426,21 @@
 #' @source Statistics Sweden, 2023
 "energySweden"
 
+
+
+#' Total number of passengers on domestic flights between JFK (New York) and MIA (Miami) airports
+#'
+#' The data are monthly observations from January, 1990 to September, 2023.
+#'
+#' @usage Time series analysis. Seasonality. Extreme events (covid-19 pandemic).
+#'
+#' @format A data frame with 405 rows and 2 variables:
+#' \describe{
+#'   \item{date}{date of the day in YYYY-MM-DD format}
+#'   \item{passengers}{total number of passengers}
+#'   ...
+#' }
+#' @source US Bureau of Transportation Statistics website:
+#  https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=GEE&QO_fu146_anzr=Nv4%20Pn44vr45
+"airpassenger_JFK_MIA"
+

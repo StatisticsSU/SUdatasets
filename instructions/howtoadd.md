@@ -40,9 +40,12 @@ Here is a documented dataset that you can use as a template (not everything need
     #' @source Dawson, Robert J. MacG. (1995), The ‘Unusual Episode’ Data Revisited. Journal of Statistics Education, 3. doi: 10.1080/10691898.1995.11910499.
     "titanic"
     ```
-5. **Build the package's documentation** with the command `devtools::document()`. Check that the documentation looks good by typing `?yourdata` in R.
+5. **Build the package and its documentation** with the commands:
+  * `devtools::document()` (to build the package) 
+  * `devtools::document()` (to build the documentation). 
+  * Check that the documentation looks good by typing `?yourdata` in R, where `yourdata` is the name of your dataset.
 6. **Add the name of your dataset** to the README.md file by copying an entry for an existing dataset and change the information. Optionally:  
-   *  add a ![badge](../badges/badge-blue.svg) for the data type and methods that can use the dataset. You can make new badge if needed [here](https://shields.io/#your-badge) and add them to the `/badges` folder. Try to use blue for badge for a method (e.g. regression), orange for a datatype (e.g. counts), green (this color is called success [here](https://shields.io/#your-badge)) for phenomena (e.g. exponential growth). 
+   *  add a ![badge](../badges/badge-blue.svg) for the data type and methods that can use the dataset. You can make new badge if needed [here](https://img.shields.io/badge/time%20series-blue) (just change the names and color in the link and right-click to save the image) and add them to the `/badges` folder. Try to use blue for badge for a method (e.g. regression), orange for a datatype (e.g. counts), green (this color is called `success` [here](https://shields.io/#your-badge)) for phenomena (e.g. exponential growth or seasonality). 
    * Add a [suitable emoji](https://gist.github.com/rxaviers/7360908) for good measure. :sunglasses:
 7. Commit and **push** to the StatisticsSU github.
 8. Take a :coffee: break.

@@ -5,6 +5,9 @@ Department members can **add datasets** following the [instructions](./instructi
 ---
 ### Datasets
 
+* [**airpassenger_JFK_MIA**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/airpassenger_JFK_MIA.Rd) :airplane: - Total number of passengers on domestic flights between JFK (New York) and MIA (Miami) airports\
+![time series](./badges/timeseries.svg)  ![seasonality](./badges/seasonality.svg) ![outlier](./badges/outlier.svg)
+
 * [**bike**](https://github.com/StatisticsSU/SUdatasets/raw/main/man/bike.Rd) :bike: - Number of daily rides for a bike share company in Washington D.C.\
 ![regression](./badges/regression.svg) ![time series](./badges/timeseries.svg) ![counts](./badges/counts.svg) 
 
